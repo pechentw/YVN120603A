@@ -143,7 +143,7 @@ public class MainActivity extends AppCompatActivity {
                 return new FragmentButton();
             if (position ==2)
                 return new FragmentImage();
-            
+
             return PlaceholderFragment.newInstance(position + 1);
         }
 
